@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="section">
     <div>
       <logo style="width : 45%; margin : auto;" />
       <h1 class="title">
