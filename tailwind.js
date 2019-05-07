@@ -126,7 +126,7 @@ const colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef'
-}
+};
 
 module.exports = {
   /*
@@ -215,14 +215,7 @@ module.exports = {
       'Georgia',
       'serif'
     ],
-    mono: [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace'
-    ]
+    mono: ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace']
   },
 
   /*
@@ -912,8 +905,8 @@ module.exports = {
   */
 
   options: {
-    prefix: '',
+    prefix: 'tw-',
     important: false,
     separator: ':'
   }
-}
+};
