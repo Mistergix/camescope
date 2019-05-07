@@ -2,9 +2,7 @@
   <section class="section">
     <div>
       <logo style="width : 45%; margin : auto;" />
-      <h1 class="title">
-        CaméScope
-      </h1>
+      <h1 class="title">Camé<span class="tw-text-green">Scope</span></h1>
       <h2 class="subtitle">
         Agnès de Lestrange &amp; Nicolas RUCHE
       </h2>
@@ -25,5 +23,3 @@ export default {
   }
 };
 </script>
-
-<style></style>
