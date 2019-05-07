@@ -1,4 +1,13 @@
-import pkg from './package'
+import pkg from './package';
+
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/parkours_preview/'
+        }
+      }
+    : {};
 
 export default {
   mode: 'universal',
@@ -20,6 +29,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
+  ...routerBase,
 
   /*
    ** Global CSS
@@ -51,8 +61,8 @@ export default {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        });
       }
     }
   }
-}
+};
