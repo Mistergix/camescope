@@ -16,7 +16,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'CaméScope, un projet par Agnès de Lestrange et Nicolas RUCHE',
+    title: 'CaméScope, un projet par Agnès de Lestrange et Nicolas Ruche',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

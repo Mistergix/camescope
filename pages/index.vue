@@ -4,7 +4,7 @@
       <logo style="width : 45%; margin : auto;" />
       <h1 class="title">Camé<span class="tw-text-green">Scope</span></h1>
       <h2 class="subtitle">
-        Agnès de Lestrange &amp; Nicolas RUCHE
+        Agnès de Lestrange &amp; Nicolas Ruche
       </h2>
       <div class="links">
         <nuxt-link to="documentation" class="button--green">Documentation</nuxt-link>
