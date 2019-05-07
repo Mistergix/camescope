@@ -28,13 +28,13 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#3b8070' },
   ...routerBase,
 
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/tailwind.css'],
+  css: ['~/assets/css/tailwind.css', '~/assets/css/main.scss'],
 
   /*
    ** Plugins to load before mounting the App
